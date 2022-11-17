@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
 
       <div className="flex justify-center space-x-2 bg-black/60 p-4 text-center text-white">
-        <a href="https://discord.gg/ivcesports" role="button">
+        <a href="https://discord.gg/5UAYcq32Uc" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
@@ -41,7 +41,7 @@ export default function Footer() {
           </svg>
         </a>
 
-        <a href="https://www.instagram.com/ivcesports/" role="button">
+        <a href="https://www.instagram.com/ivc_esports/" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -55,7 +55,7 @@ export default function Footer() {
           </svg>
         </a>
 
-        <a href="https://www.google.com/ivcesports/" role="button">
+        <a href="https://goo.gl/maps/FUVcN1yK3cCDTz9K9" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 488 512"
@@ -68,7 +68,10 @@ export default function Footer() {
           </svg>
         </a>
 
-        <a href="https://www.youtube.com/ivcesports/" role="button">
+        <a
+          href="https://www.youtube.com/channel/UC0IycIg2D1VIasDHN4E7loQ"
+          role="button"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 576 512"
