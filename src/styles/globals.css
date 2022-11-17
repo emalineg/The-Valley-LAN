@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Mont";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/Mont-HeavyDEMO.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "MontLi";
+    font-style: normal;
+    font-weight: 100;
+    src: url("/fonts/Mont-ExtraLightDEMO.otf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "TheBoldFont";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/THEBOLDFONT.ttf") format("opentype");
+  }
+  
+  @font-face {
+    font-family: "The Next Font";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/TheNextFont.ttf") format("opentype");
+  }
+  

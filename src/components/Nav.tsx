@@ -12,7 +12,13 @@ export default function Nav() {
         <img src="FinalsWordmark.svg" alt="The Valley Finals Logo" />
       </a>
 
-      <ul className="mr-4 flex items-center gap-2 text-sm font-medium text-white">
+      <ul
+        style={{
+          fontFamily: "MontLI",
+          color: "white",
+        }}
+        className="mr-4 flex items-center gap-2 text-sm font-medium text-white"
+      >
         <li>
           <a className="rounded-lg px-3 py-2 text-white" href="#about">
             {" "}
