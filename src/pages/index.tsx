@@ -8,6 +8,7 @@ import Banner from "../components/Banner";
 import About from "../components/About";
 import Rsvp from "../components/Rsvp";
 import Footer from "../components/Footer";
+import Sponsors from "../components/Sponsors";
 
 const Home: NextPage = () => {
   const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
         <Banner />
         <About />
         <Rsvp />
+        <Sponsors />
         <Footer />
       </div>
     </>
