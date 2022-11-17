@@ -1,21 +1,20 @@
-import { Carousel } from '@mantine/carousel';
-import { useMediaQuery } from '@mantine/hooks';
-import Autoplay from 'embla-carousel-autoplay';
-import { createStyles, Paper, useMantineTheme } from '@mantine/core';
-import { useRef } from 'react';
+import { Carousel } from "@mantine/carousel";
+import { useMediaQuery } from "@mantine/hooks";
+import Autoplay from "embla-carousel-autoplay";
+import { createStyles, Paper, useMantineTheme } from "@mantine/core";
+import { useRef } from "react";
 
 const useStyles = createStyles((theme) => ({
   card: {
     height: 150,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
+    alignItems: "flex-start",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   },
 }));
-
 
 interface CardProps {
   image: string;
@@ -36,8 +35,8 @@ function Card({ image }: CardProps) {
 }
 
 export type TeamCarouselProps = {
-  teams: { id: number, image: string }[]
-}
+  teams: { id: number; image: string }[];
+};
 export default function TeamCarousel({ teams }: TeamCarouselProps) {
   const theme = useMantineTheme();
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm}px)`);
@@ -48,10 +47,9 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
   ));
   const autoplay = useRef(Autoplay({ delay: 4000 }));
   return (
-
     <Carousel
       slideSize="25%"
-      breakpoints={[{ maxWidth: 'lg', slideSize: '50%', slideGap: 2 }]}
+      breakpoints={[{ maxWidth: "lg", slideSize: "50%", slideGap: 2 }]}
       slideGap="xl"
       align="start"
       slidesToScroll={mobile ? 2 : 4}
@@ -61,6 +59,6 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
       onMouseLeave={autoplay.current.reset}
     >
       {slides}
-    </Carousel >
+    </Carousel>
   );
 }
