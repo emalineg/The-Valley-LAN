@@ -2,7 +2,7 @@ export default function Nav() {
   return (
     <nav
       aria-label="Site Nav"
-      className="mx-auto flex  items-center justify-between bg-black/100 "
+      className="mx-auto flex  items-center justify-between bg-black/60 "
     >
       <a
         href="/"
@@ -12,7 +12,7 @@ export default function Nav() {
         <img src="FinalsWordmark.svg" alt="The Valley Finals Logo" />
       </a>
 
-      <ul className="flex items-center gap-2 text-sm font-medium text-white">
+      <ul className="mr-4 flex items-center gap-2 text-sm font-medium text-white">
         <li>
           <a className="rounded-lg px-3 py-2 text-white" href="#about">
             {" "}
