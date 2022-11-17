@@ -38,7 +38,7 @@ export default function About() {
             color: "white",
           }}
         >
-          `&quot;`Rocket League Champions of California`&quot;`?
+          Rocket League Champions of California?
         </span>
       </p>
 
