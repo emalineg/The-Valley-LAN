@@ -5,8 +5,9 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { trpc } from "../utils/trpc";
 import Nav from "../components/Nav";
 import Banner from "../components/Banner";
-import FeaturedTeams from "../components/FeaturedTeams";
 import About from "../components/About";
+import Rsvp from "../components/Rsvp";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
@@ -27,7 +28,8 @@ const Home: NextPage = () => {
         <Nav />
         <Banner />
         <About />
-        <FeaturedTeams />
+        <Rsvp />
+        <Footer />
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="line-height: 1 relative flex h-64 flex-col items-center justify-center pb-60 text-center sm:h-80 lg:h-full ">
+    <div className="line-height: 1 overflow:scroll flex h-64 flex-col items-center justify-center pb-60 text-center lg:h-full ">
       <p
         style={{
           fontFamily: "MontLi",
@@ -20,7 +20,7 @@ export default function About() {
         }}
         className="pt-8 text-3xl font-bold sm:text-4xl"
       >
-        8 qualify and travel to Irvine Valley College for Finals.
+        8 qualify for Finals at the Laser Esports Arena.
       </p>
       <p
         style={{
@@ -30,8 +30,30 @@ export default function About() {
         }}
         className="pt-8 text-3xl font-bold sm:text-4xl"
       >
-        Who will be crowned "The Rocket League Champions of California"?
+        Who will be crowned{" "}
+        <span
+          style={{
+            fontFamily: "Mont",
+            fontSize: "30px",
+            color: "white",
+          }}
+        >
+          "Rocket League Champions of California"?
+        </span>
       </p>
+
+      <div className="mt-10 flex flex-wrap justify-center gap-4">
+        <a
+          style={{
+            fontFamily: "MontLi",
+            color: "white",
+          }}
+          className="block w-auto rounded border border-green-600 px-12 py-3 text-sm font-medium text-white hover:bg-green-600 focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
+          href="#rsvp"
+        >
+          BRACKETS
+        </a>
+      </div>
     </div>
   );
 }

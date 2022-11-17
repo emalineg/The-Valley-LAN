@@ -1,7 +1,38 @@
-export default function Banner() {
+import React from "react";
+import TeamCarousel from "./TeamCarousel";
+
+type Props = {};
+
+export default function Banner(props: Props) {
+  const teams = [
+    {
+      id: 1,
+      image: "/teams/bronco-transparent.png",
+    },
+    {
+      id: 2,
+      image: "./teams/csumb-transparent.png",
+    },
+    {
+      id: 3,
+      image: "./teams/csusb-transparent.png",
+    },
+    {
+      id: 4,
+      image: "/teams/lmu.png",
+    },
+    {
+      id: 5,
+      image: "/teams/sdsu.png",
+    },
+    {
+      id: 6,
+      image: "/teams/sfsu-transparent.png",
+    },
+  ];
   return (
     <section className="text-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+      <div className="mx-auto max-w-screen-xl py-32 lg:flex lg:h-screen lg:items-center">
         <div className="mx-auto max-w-3xl text-center">
           <h1
             style={{
@@ -12,30 +43,24 @@ export default function Banner() {
             className="mb-1 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text pb-1 text-3xl font-extrabold text-transparent sm:text-5xl"
           >
             THE VALLEY
-            <span
-              style={{
-                fontFamily: "MontLI",
-                fontSize: "60px",
-                color: "white",
-              }}
-              className="sm:block"
-            >
-              {" "}
-              A ROCKET LEAGUE CHAMPIONSHIP{" "}
-            </span>
           </h1>
-
-          <div className="mt-5 flex flex-wrap justify-center gap-4">
-            <a
-              style={{
-                fontFamily: "MontLI",
-                color: "white",
-              }}
-              className="block w-auto rounded border border-green-600 px-12 py-3 text-sm font-medium text-white hover:bg-green-600 focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
-              href="#rsvp"
-            >
-              Spectate IRL
-            </a>
+          <h2
+            style={{
+              fontFamily: "MontLI",
+              fontSize: "45px",
+              color: "white",
+            }}
+            className="sm:block"
+          >
+            {" "}
+            A ROCKET LEAGUE CHAMPIONSHIP{" "}
+          </h2>
+          <div className="flex flex-col px-10">
+            <div className="mt-10 mb-10 grid grid-cols-10">
+              <div className="col-span-10">
+                <TeamCarousel teams={teams} />
+              </div>
+            </div>
           </div>
         </div>
       </div>

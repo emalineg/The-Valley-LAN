@@ -45,7 +45,7 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
       <Card {...team} />
     </Carousel.Slide>
   ));
-  const autoplay = useRef(Autoplay({ delay: 4000 }));
+  const autoplay = useRef(Autoplay({ delay: 3500 }));
   return (
     <Carousel
       slideSize="25%"
