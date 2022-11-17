@@ -27,7 +27,7 @@ export default function Nav() {
             href="#about"
           >
             {" "}
-            About The Valley{" "}
+            Brackets{" "}
           </Link>
         </li>
 
@@ -37,7 +37,7 @@ export default function Nav() {
             href="#teams"
           >
             {" "}
-            Teams{" "}
+            Gallery{" "}
           </Link>
         </li>
         <li>
