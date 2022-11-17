@@ -2,7 +2,7 @@ Project Plan: The Valley Site
 
 A showcase site for The Valley
 
-MVP/Coding To Do
+MVP
 
 Header – Nav Bar for each component (Takes you to lower on the page)
 hero component with button to rsvp component
@@ -11,3 +11,5 @@ Rsvp component (has details of event + link to rsvp)
 Map component of laser esports arena
 Footer – social icons to ivc esports pages
 
+BONUS:
+IF LIVE, SHOW COMPONENT WITH TWITCH STREAM ABOVE POSTER IMAGE.
