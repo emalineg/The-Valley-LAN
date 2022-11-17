@@ -1,7 +1,7 @@
 import React from "react";
 import TeamCarousel from "./TeamCarousel";
 
-type Props = {};
+type Props = [];
 
 export default function Banner(props: Props) {
   const teams = [
