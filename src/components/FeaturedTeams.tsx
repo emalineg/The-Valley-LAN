@@ -57,8 +57,8 @@ export const FeaturedTeams = (props: Props) => {
 
   ]
   return (
-    <div className='flex flex-col'>
-      <div className='px-20'>Featuring 2022 Teams</div>
+    <div className='px-10 flex flex-col'>
+      <div className='mx-auto text-white text-xl'>Featuring 2022 Teams</div>
       <div className='mt-5 mb-10 grid grid-cols-10'>
         <div className='col-span-10'>
           <TeamCarousel teams={teams} />
