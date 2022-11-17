@@ -28,7 +28,7 @@ export default function Footer() {
       </div>
 
       <div className="flex justify-center space-x-2 bg-black/60 p-4 text-center text-white">
-        <a href="https://discord.gg/5UAYcq32Uc" role="button">
+        <a href="https://discord.gg/YngTK56EYZ" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
