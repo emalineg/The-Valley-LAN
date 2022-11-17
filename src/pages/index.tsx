@@ -21,17 +21,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div
-        className="h-screen bg-cover bg-center"
+        className="bg-fixed"
         style={{ backgroundImage: `url('/bg.svg')` }}
       >
         <Nav />
-
         <Banner />
-        <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-          <div>
-            <FeaturedTeams />
-          </div>
-        </main>
+        <FeaturedTeams />
       </div>
     </>
   );
