@@ -21,7 +21,7 @@ export default function Banner() {
     },
     {
       id: 5,
-      image: "/teams/sdsu.png",
+      image: "/teams/SDSU.png",
     },
     {
       id: 6,
