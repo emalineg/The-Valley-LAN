@@ -1,6 +1,6 @@
 export default function Rsvp() {
   return (
-    <div className="line-height: 1 relative flex flex-col items-center justify-center overflow-visible text-center sm:h-full lg:h-full pb-12">
+    <div className="line-height: 1 relative flex flex-col items-center justify-center overflow-visible pb-12 text-center sm:h-full lg:h-full">
       <h1
         style={{
           fontFamily: "Mont",
@@ -28,7 +28,7 @@ export default function Rsvp() {
         }}
         className="text-2xl font-bold sm:text-3xl"
       >
-        Time: 12:00 PM - 5:00 PM
+        Time: 12:00 PM - 5:00 PM PDT
       </p>
       <p
         style={{
