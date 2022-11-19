@@ -50,6 +50,7 @@ export default function About() {
           }}
           className="block w-auto rounded border border-green-600 px-12 py-3 text-sm font-medium text-white hover:bg-green-600 focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
           href="https://www.communitygaming.io/tournament/the-valley-a-rocket-league-championship"
+          target="_blank"
         >
           BRACKETS
         </a>

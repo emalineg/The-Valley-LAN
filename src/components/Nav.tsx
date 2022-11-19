@@ -25,6 +25,7 @@ export default function Nav() {
           <Link
             className=" rounded-lg px-3 py-2 hover:text-green-400"
             href="https://www.communitygaming.io/tournament/the-valley-a-rocket-league-championship"
+            target="_blank"
           >
             {" "}
             Brackets{" "}
@@ -44,6 +45,7 @@ export default function Nav() {
           <Link
             className="rounded-lg px-3 py-2 hover:text-green-400"
             href="https://forms.gle/eWdnhABkQwTjZGpy7"
+            target="_blank"
           >
             {" "}
             RSVP{" "}

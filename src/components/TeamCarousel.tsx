@@ -13,6 +13,7 @@ const useStyles = createStyles((theme) => ({
     alignItems: "flex-start",
     backgroundSize: "cover",
     backgroundPosition: "center",
+    backgroundColor: "transparent",
   },
 }));
 
@@ -54,9 +55,11 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
       align="start"
       slidesToScroll={mobile ? 2 : 4}
       loop
+      dragFree
       plugins={[autoplay.current]}
       onMouseEnter={autoplay.current.stop}
       onMouseLeave={autoplay.current.reset}
+      withControls={false}
     >
       {slides}
     </Carousel>
