@@ -4,7 +4,6 @@ export default function About() {
       <p
         style={{
           fontFamily: "MontLi",
-          fontSize: "30px",
           color: "white",
         }}
         className="pb-8 text-3xl font-bold sm:text-4xl"
@@ -49,6 +48,7 @@ export default function About() {
           className="block w-auto rounded border border-green-600 px-12 py-3 text-sm font-medium text-white hover:bg-green-600 focus:outline-none focus:ring active:bg-green-500 sm:w-auto"
           href="https://twitch.tv/ivc_esports"
           target="_blank"
+          rel="noreferrer"
         >
           WATCH THE BATTLE UNFOLD
         </a>

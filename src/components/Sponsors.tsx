@@ -8,9 +8,8 @@ export default function Sponsors() {
         style={{
           fontFamily: "Mont",
           color: "white",
-          fontSize: "40px",
         }}
-        className="text-center"
+        className="text-center text-3xl font-bold sm:text-4xl"
       >
         THANK YOU TO OUR PARTNERS
       </h1>
