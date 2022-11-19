@@ -23,22 +23,21 @@ export default function Nav() {
       >
         <li>
           <Link
+            className="rounded-lg px-3 py-2 hover:text-green-400"
+            href="https://twitch.tv/ivc_esports"
+          >
+            {" "}
+            Twitch{" "}
+          </Link>
+        </li>
+        <li>
+          <Link
             className=" rounded-lg px-3 py-2 hover:text-green-400"
             href="https://www.communitygaming.io/tournament/the-valley-a-rocket-league-championship"
             target="_blank"
           >
             {" "}
             Brackets{" "}
-          </Link>
-        </li>
-
-        <li>
-          <Link
-            className="rounded-lg px-3 py-2 hover:text-green-400"
-            href="#teams"
-          >
-            {" "}
-            Gallery{" "}
           </Link>
         </li>
         <li>
@@ -55,9 +54,10 @@ export default function Nav() {
           <Link
             className="rounded-lg px-3 py-2 hover:text-green-400"
             href="#sponsors"
+            scroll={false}
           >
             {" "}
-            Sponsors{" "}
+            Partners{" "}
           </Link>
         </li>
       </ul>

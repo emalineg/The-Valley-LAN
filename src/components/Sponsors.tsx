@@ -1,6 +1,9 @@
 export default function Sponsors() {
   return (
-    <div className="flex flex-col items-center justify-center pb-10">
+    <div
+      className="flex flex-col items-center justify-center pb-10"
+      id="sponsors"
+    >
       <h1
         style={{
           fontFamily: "Mont",
@@ -16,7 +19,7 @@ export default function Sponsors() {
           <img
             src="/vs.svg"
             alt="viewsonic sponsor logo"
-            className="h-32 shrink"
+            className="h-32 shrink stroke-white"
           />
           <img
             src="/cg.png"
