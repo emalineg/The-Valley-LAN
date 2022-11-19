@@ -6,13 +6,13 @@ import { useRef } from "react";
 
 const useStyles = createStyles((theme) => ({
   card: {
-    height: 150,
+    height: "100%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
     alignItems: "flex-start",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
     backgroundColor: "transparent",
   },
 }));
@@ -25,13 +25,7 @@ function Card({ image }: CardProps) {
   const { classes } = useStyles();
 
   return (
-    <Paper
-      shadow="md"
-      p="xl"
-      radius="md"
-      sx={{ backgroundImage: `url(${image})` }}
-      className={classes.card}
-    />
+    <Paper sx={{ backgroundImage: `url(${image})` }} className={classes.card} />
   );
 }
 
@@ -50,10 +44,11 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
   return (
     <Carousel
       slideSize="25%"
-      breakpoints={[{ maxWidth: "lg", slideSize: "50%", slideGap: 2 }]}
-      slideGap="xl"
+      breakpoints={[{ slideSize: "25%" }]}
+      height={200}
+      slideGap="sm"
       align="start"
-      slidesToScroll={mobile ? 2 : 4}
+      slidesToScroll={mobile ? 3 : 3}
       loop
       dragFree
       plugins={[autoplay.current]}
