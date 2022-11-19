@@ -25,7 +25,7 @@ export default function Nav() {
             >
               <li>
                 <Link
-                  className="rounded-lg px-3 py-2 hover:text-green-400"
+                  className="rounded-lg px-1 py-2 hover:text-green-400 sm:px-3"
                   href="https://twitch.tv/ivc_esports"
                 >
                   {" "}
@@ -34,7 +34,7 @@ export default function Nav() {
               </li>
               <li>
                 <Link
-                  className=" rounded-lg px-3 py-2 hover:text-green-400"
+                  className=" rounded-lg px-1 py-2 hover:text-green-400 sm:px-3"
                   href="https://www.communitygaming.io/tournament/the-valley-a-rocket-league-championship"
                   target="_blank"
                 >
@@ -44,7 +44,7 @@ export default function Nav() {
               </li>
               <li>
                 <Link
-                  className="rounded-lg px-3 py-2 hover:text-green-400"
+                  className="rounded-lg px-1 py-2 hover:text-green-400 sm:px-3"
                   href="https://forms.gle/eWdnhABkQwTjZGpy7"
                   target="_blank"
                 >
@@ -54,7 +54,7 @@ export default function Nav() {
               </li>
               <li>
                 <Link
-                  className="rounded-lg px-3 py-2 hover:text-green-400"
+                  className="rounded-lg px-1 py-2 hover:text-green-400 sm:px-3"
                   href="#sponsors"
                   scroll={false}
                 >

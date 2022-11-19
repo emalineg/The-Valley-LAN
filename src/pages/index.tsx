@@ -44,7 +44,7 @@ const Home: NextPage = () => {
         style={{ backgroundImage: `url('/bg.svg')` }}
       >
         <Nav />
-        <div className="grid grid-cols-1 gap-20 px-10">
+        <div className="grid grid-cols-1 gap-20 px-4">
           <Banner />
           <About />
           <Rsvp />
