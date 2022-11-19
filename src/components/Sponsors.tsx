@@ -15,16 +15,28 @@ export default function Sponsors() {
       </h1>
       <div className=" mt-10 flex flex-col items-center justify-center">
         <div className="mx-8 flex flex-wrap items-center justify-center px-8">
-          <img
-            src="/vs.svg"
-            alt="viewsonic sponsor logo"
-            className="h-32 shrink stroke-white"
-          />
-          <img
-            src="/cg.png"
-            alt="community gaming sponsor logo"
-            className="h-32 shrink"
-          />
+          <a
+            href="https://www.viewsonic.com/global/products/lcd/gaming"
+            target="_blank"
+            rel="noreferrer"
+            className="w-72 flex flex-fill"
+          >
+            <img
+              src="/vs.svg"
+              alt="viewsonic sponsor logo"
+            />
+          </a>
+          <a
+            href="https://www.communitygaming.io/"
+            target="_blank"
+            rel="noreferrer"
+            className="h-32 flex flex-fill"
+          >
+            <img
+              src="/cg.png"
+              alt="community gaming sponsor logo"
+            />
+          </a>
         </div>
       </div>
     </div>

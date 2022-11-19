@@ -24,7 +24,6 @@ export default function Footer() {
           <img src="./arena.jpg" className="rounded-2xl" width={300} />
         </div>
       </div>
-
       <div className="flex justify-center space-x-2 bg-black/60 p-4 text-center text-white">
         <a href="https://discord.gg/YngTK56EYZ" role="button">
           <svg
@@ -38,7 +37,6 @@ export default function Footer() {
             />
           </svg>
         </a>
-
         <a href="https://www.instagram.com/ivc_esports/" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +50,6 @@ export default function Footer() {
             />
           </svg>
         </a>
-
         <a href="https://goo.gl/maps/FUVcN1yK3cCDTz9K9" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +62,6 @@ export default function Footer() {
             />
           </svg>
         </a>
-
         <a
           href="https://www.youtube.com/channel/UC0IycIg2D1VIasDHN4E7loQ"
           role="button"
@@ -81,7 +77,6 @@ export default function Footer() {
             />
           </svg>
         </a>
-
         <a href="https://www.twitter.com/ivcesports/" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +89,6 @@ export default function Footer() {
             />
           </svg>
         </a>
-
         <a href="https://www.twitch.tv/ivc_esports/" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"

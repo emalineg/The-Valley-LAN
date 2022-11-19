@@ -1,8 +1,5 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
-import { signIn, signOut, useSession } from "next-auth/react";
-import { trpc } from "../utils/trpc";
 import Nav from "../components/Nav";
 import Banner from "../components/Banner";
 import About from "../components/About";
@@ -11,7 +8,6 @@ import Footer from "../components/Footer";
 import Sponsors from "../components/Sponsors";
 
 const Home: NextPage = () => {
-  const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
   return (
     <>
       <Head>
@@ -44,7 +40,7 @@ const Home: NextPage = () => {
         style={{ backgroundImage: `url('/bg.svg')` }}
       >
         <Nav />
-        <div className="grid grid-cols-1 gap-20 px-4">
+        <div className="grid grid-cols-1 mx-2 sm:gap-10 p-5">
           <Banner />
           <About />
           <Rsvp />

@@ -29,9 +29,9 @@ export default function Banner() {
     },
   ];
   return (
-    <div className="mx-auto max-w-screen-xl ">
+    <div className="mx-auto max-w-screen-xl sm:px-2 sm:py-6">
       <div className="mx-auto max-w-3xl text-center ">
-        <div className="pt-20">
+        <div className="">
           <img
             src="/FinalWordmark.svg"
             alt="logo"
@@ -40,10 +40,9 @@ export default function Banner() {
           <h2
             style={{
               fontFamily: "MontLI",
-              fontSize: "45px",
               color: "white",
             }}
-            className="sm:block, mt-4"
+            className="sm:block, mt-4 text-4xl"
           >
             {" "}
             A ROCKET LEAGUE CHAMPIONSHIP{" "}
