@@ -1,29 +1,27 @@
 export default function Footer() {
   return (
-    <footer className="bg-black/60 text-center lg:text-left">
-      <div className="container p-6 text-white">
-        <div className="grid gap-4 lg:grid-cols-2">
-          <div className="mb-6 md:mb-0">
-            <h5 className="mb-2 font-medium uppercase">
-              What is Irvine Valley College (IVC) Esports?
-            </h5>
-
-            <p className="mt-5 mb-4">
-              IVC Esports is a project-based learning organization where
-              students take on real world projects that reflect the professional
-              world of esports. Students and faculty involved in the IVC Esports
-              program are part of a 100+ member team that brings esports to IVC
-              through competition, career development, and community building.
-            </p>
-          </div>
-
-          <div className="mb-6 md:mb-0">
-            <h5 className="mb-2 font-medium uppercase"></h5>
-
-            <div className="flex justify-center ">
-              <img src="./arena.jpg" width="50%" height="50%" />
-            </div>
-          </div>
+    <footer className="bg-black/60 ">
+      <div className="mx-10 grid gap-4 lg:grid-cols-8 lg:gap-0">
+        <div className="mt-5 mb-5 text-center text-white sm:col-end-5 sm:text-left lg:col-start-2 lg:mx-6 ">
+          <h5
+            className="mb-2 font-bold uppercase"
+            style={{ fontFamily: "Mont" }}
+          >
+            What is Irvine Valley College (IVC) Esports?
+          </h5>
+          <p
+            className="mt-5"
+            style={{
+              fontFamily: "MontLI",
+            }}
+          >
+            Students and faculty involved in the IVC Esports program are part of
+            a 100+ member team that brings esports to Irvine Valley College
+            through competition, career development, and community building.
+          </p>
+        </div>
+        <div className=" col-start-5 col-end-9 ml-10 mt-5 mb-5 hidden md:block">
+          <img src="./arena.jpg" className="rounded-2xl" width={300} />
         </div>
       </div>
 

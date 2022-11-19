@@ -45,7 +45,7 @@ export default function TeamCarousel({ teams }: TeamCarouselProps) {
     <Carousel
       slideSize="25%"
       breakpoints={[{ slideSize: "25%" }]}
-      height={200}
+      height={mobile ? 100 : 200}
       slideGap="sm"
       align="start"
       slidesToScroll={mobile ? 3 : 3}

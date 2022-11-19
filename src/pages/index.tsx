@@ -44,10 +44,12 @@ const Home: NextPage = () => {
         style={{ backgroundImage: `url('/bg.svg')` }}
       >
         <Nav />
-        <Banner />
-        <About />
-        <Rsvp />
-        <Sponsors />
+        <div className="grid grid-cols-1 gap-20 px-10">
+          <Banner />
+          <About />
+          <Rsvp />
+          <Sponsors />
+        </div>
         <Footer />
       </div>
     </>

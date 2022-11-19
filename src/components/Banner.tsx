@@ -29,39 +29,34 @@ export default function Banner() {
     },
   ];
   return (
-    <section className="text-white">
-      <div className="mx-auto max-w-screen-xl py-32 lg:flex lg:h-screen lg:items-center">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1
-            style={{
-              fontFamily: "Mont",
-              fontSize: "80px",
-              color: "white",
-            }}
-            className="mb-1 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text pb-1 text-3xl font-extrabold text-transparent sm:text-5xl"
-          >
-            THE VALLEY
-          </h1>
+    <div className="mx-auto max-w-screen-xl ">
+      <div className="mx-auto max-w-3xl text-center ">
+        <div className="pt-20">
+          <img
+            src="/FinalWordmark.svg"
+            alt="logo"
+            className="mx-auto w-[500px]"
+          />
           <h2
             style={{
               fontFamily: "MontLI",
               fontSize: "45px",
               color: "white",
             }}
-            className="sm:block"
+            className="sm:block, mt-4"
           >
             {" "}
             A ROCKET LEAGUE CHAMPIONSHIP{" "}
           </h2>
-          <div className="flex flex-col px-10">
-            <div className="mt-10 mb-10 grid grid-cols-10">
-              <div className="col-span-10">
-                <TeamCarousel teams={teams} />
-              </div>
+        </div>
+        <div className="flex flex-col">
+          <div className="mt-10 grid grid-cols-10">
+            <div className="col-span-10">
+              <TeamCarousel teams={teams} />
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }

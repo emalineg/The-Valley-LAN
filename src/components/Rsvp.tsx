@@ -1,23 +1,22 @@
 export default function Rsvp() {
   return (
-    <div className="line-height: 1 relative flex h-64 flex-col items-center justify-center overflow-visible pb-60 text-center sm:h-full lg:h-full">
+    <div className="line-height: 1 relative flex flex-col items-center justify-center overflow-visible text-center sm:h-full lg:h-full">
       <h1
         style={{
           fontFamily: "Mont",
-          fontSize: "40px",
           color: "white",
         }}
-        className="pb-8"
+        className="pb-8 text-3xl font-bold sm:text-4xl"
       >
         2022 FINALS LAN
       </h1>
       <p
         style={{
           fontFamily: "MontLi",
-          fontSize: "30px",
+
           color: "white",
         }}
-        className="text-3xl font-bold sm:text-4xl"
+        className="text-2xl font-bold sm:text-3xl"
       >
         {" "}
         Date: November 19, 2022
@@ -25,20 +24,19 @@ export default function Rsvp() {
       <p
         style={{
           fontFamily: "MontLi",
-          fontSize: "30px",
           color: "white",
         }}
-        className="pt-8 text-3xl font-bold sm:text-4xl"
+        className="text-2xl font-bold sm:text-3xl"
       >
         Time: 12:00 PM - 5:00 PM
       </p>
       <p
         style={{
           fontFamily: "MontLi",
-          fontSize: "30px",
+
           color: "white",
         }}
-        className="pt-8 text-3xl font-bold sm:text-4xl"
+        className=" text-2xl font-bold sm:text-3xl"
       >
         Location: Laser Esports Arena
       </p>
