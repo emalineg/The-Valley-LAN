@@ -26,10 +26,19 @@ export default function Nav() {
               <li>
                 <Link
                   className="rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
-                  href="https://twitch.tv/ivc_esports"
+                  href="https://www.twitch.tv/videos/1657616572?t=00h01m49s"
                 >
                   {" "}
-                  Twitch{" "}
+                  VOD{" "}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
+                  href="https://drive.google.com/drive/folders/1-LLC9cignmZyxQjWptwBDSDkLAVCPzfO?usp=share_link"
+                >
+                  {" "}
+                  Gallery{" "}
                 </Link>
               </li>
               <li className="sm:hidden">-</li>
