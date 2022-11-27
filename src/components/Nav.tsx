@@ -32,6 +32,7 @@ export default function Nav() {
                   VOD{" "}
                 </Link>
               </li>
+              <li className="sm:hidden">-</li>
               <li>
                 <Link
                   className="rounded-lg px-2 py-2 hover:text-green-400 sm:px-3"
