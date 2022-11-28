@@ -3,5 +3,5 @@ A website to showcase Irvine Valley College's Intercollegiate Rocket League Tour
 
 Graphics by Soap-Less
 
-Built Next.js, Tailwind CSS, and MantineUI 
+Built Next.js, Tailwind CSS, and MantineUI
 Deployed at: https://thevalley.lol
