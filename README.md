@@ -1,4 +1,4 @@
-# The Valley Showcase Website (https://thevalley.lol)
+# The Valley Showcase Website
 A website to showcase Irvine Valley College's Intercollegiate Rocket League Tournament.
 
 Graphics by Soap-Less
